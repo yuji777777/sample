@@ -26,6 +26,9 @@ header .wrapper {
   padding-bottom: 0px;
 }
 
+.container {
+  display: flex;
+}
 
 .background-white {
   text-align:center;
@@ -40,7 +43,7 @@ header .wrapper {
   margin: 0;
   
 	position: relative;
-  width: 150%;
+  width: 100%;
   
 	background: #283222;
  
