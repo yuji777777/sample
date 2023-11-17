@@ -220,15 +220,25 @@ footer {
 .title-border-right {
   display: flex;
   align-items: center;
+
 }
 .title-border-right:after {
   border-top: 1px solid;
   content: "";
   flex-grow: 0.03;
-  color: white;
+  color: #324e22;
 }
 .title-border-right:after {
   margin-left: 1rem;
+}
+
+.text {
+  margin: -33px 130px;
+}
+
+
+.titlebar {
+  color:white;               /* 文字を白色に */
 }
 
 .px {
