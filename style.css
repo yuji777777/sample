@@ -13,7 +13,18 @@ body {
   width: 100%;
   max-width: 100%;
   margin: 0 0;
-  padding: 0 20px 0 0;
+  padding: 0 0 0;
+}
+
+.circle {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid 3px white;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 50px;
 }
 
 header .wrapper {
@@ -47,11 +58,24 @@ header .wrapper {
 
 .background-white {
   text-align: center;
-  margin: 0 auto;
+  margin: 0 0;
   width: 300px;
-  height: 40px;
+  height: 50px;
   background: white;
+}
+
+.background-white img {
+  margin: 0 100px 0 0;
+  width: 50px;
+  height: 50px;
+}
+
+.text3 {
+  position: absolute;
   color: #324e22;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 0 0 150px;
 }
 
 .background-green {
@@ -62,11 +86,11 @@ header .wrapper {
   color: white;
 }
 
-
 .border {
   font-size: 30px;
+  height: 60px;
   width: 40px;
-  border-bottom: solid 2px #324e22;
+  border-bottom: solid 3px #538338;
 }
 
 .border span {
@@ -100,6 +124,10 @@ header .wrapper {
 .center * {
   margin-right: auto;
   margin-left: auto;
+}
+
+.text4 {
+  margin: 0 -470px 0 0;
 }
 
 nav ul {
@@ -214,13 +242,14 @@ section {
 
 footer {
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 150px;
+  color: white;
 }
 
 /*——　文字の右にライン　——*/
 .title-border-right {
   display: flex;
   align-items: center;
-
 }
 .title-border-right:after {
   border-top: 1px solid;
@@ -236,9 +265,13 @@ footer {
   margin: -33px 130px;
 }
 
+.text2 {
+  text-align: right;
+  margin: 0 130px 0 0;
+}
 
 .titlebar {
-  color:white;               /* 文字を白色に */
+  color: white; /* 文字を白色に */
 }
 
 .px {
