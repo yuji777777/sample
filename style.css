@@ -130,6 +130,15 @@ header .wrapper {
   margin: 0 -470px 0 0;
 }
 
+.text5
+{
+  color: #020202;
+  font-size: 19px;
+  font-weight: bold;
+
+
+}
+
 nav ul {
   display: flex;
   gap: 60px;
@@ -269,6 +278,8 @@ footer {
   text-align: right;
   margin: 0 130px 0 0;
 }
+
+
 
 .titlebar {
   color: white; /* 文字を白色に */
