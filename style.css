@@ -4,410 +4,397 @@
 @media screen and (min-width: 1024px) {
   /*ここにPC用のCSSを記述する*/
 
-  *{
-    margin:0;
-    padding:0;
-    }
-  
-html {
-  font-size: 100%;
-}
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
-body {
-  font-family: serif;
-}
-
-.gazo img {
-  width: 100%;
-}
-
-.wrapper {
-  text-align: center;
-  width: 100%;
-  max-width: 100%;
-  margin: 0 0;
-  padding: 0 0 0;
-}
-
-.circle {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: solid 2px white;
-  text-align: center;
-  line-height: 50px;
-  position:fixed;
-  top:0px;
-  right:0px;
-  /* margin: 0 50px; */
-}
-
-header .wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  margin-left: 150px;
-  margin-top: 35px;
-}
-
-.container2 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-   margin-left: 250px; 
-} 
-
-.container3 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-right: 1px;
-}
-
-.background-white {
-  text-align: center;
-  margin: 0 0;
-  width: 250px;
-  height: 50px;
-  background: white;
-}
-
-.background-white img {
-  margin: 0 100px 0 0;
-
-  width: 50px;
-  height: 50px;
-}
-
-
-.migi img {
-  margin: 0 100px 0 0;
-}
-
-.migi2 img {
-  margin: 0 100px 0 0;
-}
-
-.hidari img {
-  margin: 0 0 0 160px;
-}
-
-
-.text3 {
-  position: absolute;
-  color: #324e22;
-  font-weight: bold;
-  font-size: 20px;
-  margin: 0 0 0 120px;
-}
-
-.background-green {
-  margin: 0;
-  position: relative;
-  width: 100%;
-  background: #283222;
-  color: white;
-}
-
-.border {
-  font-size: 30px;
-  height: 60px;
-  width: 40px;
-  border-bottom: solid 3px #538338;
-}
-
-.border span {
-  font-size: 40px;
-}
-
-.example {
-  font-size: 30px;
-}
-.example2 {
-  line-height: 30px;
-}
-
-.example3 {
-  color: #dbad04;
-  font-size: 23px;
-}
-
-.example4 {
-  color: #dbad04;
-  font-size: 30px;
-}
-
-.example5 {
-  color: #fdfdfb;
-}
-
-.center {
-  text-align: center;
-}
-.center * {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.text4 {
-  margin: 0 -470px 0 0;
-}
-
-.text5
-{
-  color: #020202;
-  font-size: 19px;
-  font-weight: bold;
-
-
-}
-
-nav ul {
-  display: flex;
-  gap: 60px;
-}
-
-nav li a {
-  display: flex;
-  flex-direction: column;
-  font-size: 11px;
-  text-align: center;
-}
-
-nav li a i {
-  font-size: 20px;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  transition: opacity 0.5s;
-}
-
-section div id p {
-  color: #050505;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-a:hover {
-  opacity: 0.7;
-}
-
-/* main visual */
-.mv {
-  height: 300px;
-  object-fit: cover;
-}
-
-.btn {
-  padding: 10px 100px;
-  background: #324e22;
-  color: #fafafa;
-  border-radius: 25px;
-}
-.btn:active {
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  border-bottom: none;
-}
-
-.btn2 {
-  padding: 10px 50px;
-  background: #b28c04;
-  color: #fafafa;
-  border-radius: 25px;
-}
-.btn2:active {
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  border-bottom: none;
-}
-
-.btn3 {
-  padding: 10px 50px;
-  background: #324e22;
-  color: #fafafa;
-  border-radius: 25px;
-}
-.btn3:active {
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  border-bottom: none;
-}
-
-.cozyspace-img {
-  display: inline-block;
-  vertical-align: middle;
-} 
- 
-
-.cozyspace-message {
-  display: inline-block;
-  vertical-align: middle;
-} 
-
- IMG.displayed {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-section {
-  background: #282828;
-  color: white;
-  border-radius: 1em;
-  padding: 1em;
-  top: 100%;
-  left: 50%;
-  margin-right: 0;
-  transform: translate(0%, 0px);
-}
-
-.googlemap iframe {
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  height: 300px;
-  margin: 50px 0;
-  padding: 0 0 0 0;
-}
-
-footer {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 150px;
-  color: white;
-}
-
-/*——　文字の右にライン　——*/
-.title-border-right {
-  display: flex;
-  align-items: center;
-}
-.title-border-right:after {
-  border-top: 1px solid;
-  content: "";
-  flex-grow: 0.03;
-  color: #324e22;
-}
-.title-border-right:after {
-  margin-left: 1rem;
-}
-
-.text {
-  margin: -33px 130px;
-}
-
-.text2 {
-  text-align: right;
-  margin: 0 130px 0 0;
-}
-
-
-
-.titlebar {
-  color: white; /* 文字を白色に */
-}
-
-.px {
-  font-size: 20px;
-}
-
-}
-
-/* スマホ */
-@media screen and (max-width: 600px) {
-  /*ここにスマホ用のCSSを記述する*/
-
-  *{
-    margin:0;
-    padding:0;
-    }
-  
-
-  img { max-width: 100%; }
-
-  
   html {
-    font-size: 87.5%;
-  }
-  
-  
-
- main {
-    width: 100%;
+    font-size: 100%;
   }
 
-  
   body {
     font-family: serif;
-    width: 100%;
   }
-  
+
   .gazo img {
     width: 100%;
   }
 
- 
-  .migi img  {
-    width: 100%;
-    text-align: center;
-    margin: 20px 0 0 0;
-  }
-
-  .migi2 *{
-    margin:0;
-    padding:0;
-    }
-  
-  
-  .migi2 img {
-    text-align: center;
-    margin: 0 70px;
-
-  }
-  
-  .hidari img {
-    text-align: center;
-  }
-  
-  header  {
-		width: 100%;
-	}
-  
-  
   .wrapper {
-
     text-align: center;
     width: 100%;
     max-width: 100%;
     margin: 0 0;
     padding: 0 0 0;
   }
-  
-   .menu {
+
+  .circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 2px white;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    /* margin: 0 50px; */
+  }
+
+  header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 35px;
+  }
+
+  .container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 250px;
+  }
+
+  .container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1px;
+  }
+
+  .background-white {
+    text-align: center;
+    margin: 0 0;
+    width: 250px;
+    height: 50px;
+    background: white;
+  }
+
+  .background-white img {
+    margin: 0 100px 0 0;
+
+    width: 50px;
+    height: 50px;
+  }
+
+  .migi img {
+    margin: 0 100px 0 0;
+  }
+
+  .migi2 img {
+    margin: 0 100px 0 0;
+  }
+
+  .hidari img {
+    margin: 0 0 0 160px;
+  }
+
+  .text3 {
+    position: absolute;
+    color: #324e22;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 0 120px;
+  }
+
+  .background-green {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    background: #283222;
+    color: white;
+  }
+
+  .border {
+    font-size: 30px;
+    height: 60px;
+    width: 40px;
+    border-bottom: solid 3px #538338;
+  }
+
+  .border span {
+    font-size: 40px;
+  }
+
+  .example {
+    font-size: 30px;
+  }
+  .example2 {
+    line-height: 30px;
+  }
+
+  .example3 {
+    color: #dbad04;
+    font-size: 23px;
+  }
+
+  .example4 {
+    color: #dbad04;
+    font-size: 30px;
+  }
+
+  .example5 {
+    color: #fdfdfb;
+  }
+
+  .center {
+    text-align: center;
+  }
+  .center * {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text4 {
+    margin: 0 -470px 0 0;
+  }
+
+  .text5 {
+    color: #020202;
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 60px;
+  }
+
+  nav li a {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  nav li a i {
+    font-size: 20px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.5s;
+  }
+
+  section div id p {
+    color: #050505;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  a:hover {
+    opacity: 0.7;
+  }
+
+  /* main visual */
+  .mv {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .btn {
+    padding: 10px 100px;
+    background: #324e22;
+    color: #fafafa;
+    border-radius: 25px;
+  }
+  .btn:active {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    border-bottom: none;
+  }
+
+  .btn2 {
+    padding: 10px 50px;
+    background: #b28c04;
+    color: #fafafa;
+    border-radius: 25px;
+  }
+  .btn2:active {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    border-bottom: none;
+  }
+
+  .btn3 {
+    padding: 10px 50px;
+    background: #324e22;
+    color: #fafafa;
+    border-radius: 25px;
+  }
+  .btn3:active {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    border-bottom: none;
+  }
+
+  .cozyspace-img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .cozyspace-message {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section {
+    background: #282828;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    top: 100%;
+    left: 50%;
+    margin-right: 0;
+    transform: translate(0%, 0px);
+  }
+
+  .googlemap iframe {
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    height: 300px;
+    margin: 50px 0;
+    padding: 0 0 0 0;
+  }
+
+  footer {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    color: white;
+  }
+
+  /*——　文字の右にライン　——*/
+  .title-border-right {
+    display: flex;
+    align-items: center;
+  }
+  .title-border-right:after {
+    border-top: 1px solid;
+    content: "";
+    flex-grow: 0.03;
+    color: #324e22;
+  }
+  .title-border-right:after {
+    margin-left: 1rem;
+  }
+
+  .text {
+    margin: -33px 130px;
+  }
+
+  .text2 {
+    text-align: right;
+    margin: 0 130px 0 0;
+  }
+
+  .titlebar {
+    color: white; /* 文字を白色に */
+  }
+
+  .px {
+    font-size: 20px;
+  }
+}
+
+/* スマホ */
+@media screen and (max-width: 600px) {
+  /*ここにスマホ用のCSSを記述する*/
+
+ 
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* *{
+    outline: 1px red solid;
+} */
+
+  img {
+    max-width: 100%;
+  }
+
+  html {
+    font-size: 87.5%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  body {
+    font-family: serif;
+    width: 100%;
+  }
+
+  .gazo img {
+    width: 100%;
+  }
+
+  .migi img {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+
+  .migi2 * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .migi2 img {
+    text-align: center;
+    margin: 0 70px;
+  }
+
+  .hidari img {
+    text-align: center;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .wrapper {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0;
+    padding: 0 0 0;
+  }
+
+  .menu {
     /* position: absolute; */
-    position:fixed;
-  right:0px;
+    position: fixed;
+    right: 0px;
     /* margin: 0px; */
-    padding:  0px;             /* 余白指定 */
+    padding: 0px; /* 余白指定 */
     /* left:  0px; */
-                    /* 左からの位置指定 */
-    top: 0px;                  /* 上からの位置指定 */
-    
-   }
+    /* 左からの位置指定 */
+    top: 0px; /* 上からの位置指定 */
+  }
 
   .circle {
     display: inline-block;
@@ -419,39 +406,39 @@ footer {
     text-align: center;
     line-height: 25px;
   }
-  
+
   header .wrapper {
     align-items: center;
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  
+
   .container {
     justify-content: space-around;
     align-items: center;
   }
-  
+
   .container2 {
     /* display: flex; */
     justify-content: space-around;
     align-items: center;
     /* margin-left: 250px; */
   }
-  
+
   .container3 {
     /* display: flex; */
     justify-content: space-around;
     align-items: center;
 
     display: flex;
-flex-direction: column;
+    flex-direction: column;
     /* margin-right: 1px; */
   }
 
   .container3:nth-child(odd) {
     flex-direction: column-reverse;
-    }
-  
+  }
+
   .background-white {
     text-align: center;
 
@@ -469,16 +456,16 @@ flex-direction: column;
     color: #283222;
     font-size: 20px;
     text-transform: uppercase;
-    content: '茶の風味屋';
+    content: "茶の風味屋";
     z-index: 1;
-}
+  }
 
   .background-white img {
     margin: 0 100px 0 0;
     width: 25px;
     height: 25px;
   }
-  
+
   .text3 {
     /* position: absolute;
     color: #324e22;
@@ -486,51 +473,50 @@ flex-direction: column;
     font-size: 10px;
     margin: 0 100px 50px 0;
     display: block; */
-    display:none !important
+    display: none !important;
   }
-  
+
   .background-green {
     /* position: relative; */
     width: 100%;
     height: 1950px;
     background: #283222;
     color: white;
-      background-size: cover;
-
+    background-size: cover;
   }
-  
+
   .border {
     font-size: 30px;
     height: 60px;
     width: 40px;
     border-bottom: solid 3px #538338;
   }
-  
+
   .border span {
     font-size: 40px;
   }
-  
+
   .example {
     font-size: 30px;
   }
   .example2 {
     line-height: 30px;
   }
-  
+
   .example3 {
     color: #dbad04;
     font-size: 23px;
   }
-  
+
   .example4 {
     color: #dbad04;
     font-size: 30px;
   }
-  
+
   .example5 {
     color: #fdfdfb;
   }
-  
+
   .center {
     text-align: center;
   }
@@ -538,73 +524,69 @@ flex-direction: column;
     margin-right: auto;
     margin-left: auto;
   }
-  
+
   .text4 {
     margin: 0 0 0 0;
-    
+
     font-feature-settings: "palt";
     white-space: nowrap;
   }
-  
+
   .br::before {
-    text-align:left;
+    text-align: left;
 
     content: "\A";
     white-space: pre;
-    
-}
+  }
 
-  .text5
-  {
+  .text5 {
     color: #020202;
     font-size: 19px;
     font-weight: bold;
-  
-  
   }
-  
+
   nav ul {
     display: flex;
     gap: 30px;
   }
-  
+
   nav li a {
     display: flex;
     flex-direction: column;
     font-size: 11px;
     text-align: center;
   }
-  
+
   nav li a i {
     font-size: 20px;
   }
-  
+
   ul {
     list-style: none;
   }
-  
+
   a {
     text-decoration: none;
     color: white;
     transition: opacity 0.5s;
   }
-  
+
   section div id p {
     color: #050505;
     font-size: 20px;
     font-weight: bold;
   }
-  
+
   a:hover {
     opacity: 0.7;
   }
-  
+
   /* main visual */
   .mv {
     height: 300px;
     object-fit: cover;
   }
-  
+
   .btn {
     padding: 10px 100px;
     background: #324e22;
@@ -616,7 +598,7 @@ flex-direction: column;
     transform: translateY(5px);
     border-bottom: none;
   }
-  
+
   .btn2 {
     padding: 10px 50px;
     background: #b28c04;
@@ -628,7 +610,7 @@ flex-direction: column;
     transform: translateY(5px);
     border-bottom: none;
   }
-  
+
   .btn3 {
     padding: 10px 50px;
     background: #324e22;
@@ -640,7 +622,7 @@ flex-direction: column;
     transform: translateY(5px);
     border-bottom: none;
   }
-  
+
   /* .cozyspace-img,
   .cozyspace-message {
     display: inline-block;
@@ -649,11 +631,9 @@ flex-direction: column;
   } */
 
   .cozyspace-img img {
-
     align-items: center;
-
   }
-  
+
   /* IMG.displayed {
     display: block;
     margin-left: auto;
@@ -670,7 +650,7 @@ flex-direction: column;
     margin-right: 0;
     transform: translate(0%, 0px);
   } */
-  
+
   .googlemap iframe {
     border-radius: 100px;
     -webkit-border-radius: 100px;
@@ -679,13 +659,14 @@ flex-direction: column;
     margin: 50px 0;
     padding: 0 0 0 0;
   }
-  
+
   footer {
     font-family: Arial, Helvetica, sans-serif;
     /* margin-left: 150px; */
     color: white;
+    text-align: center;
   }
-  
+
   /*——　文字の右にライン　——*/
   .title-border-right {
     display: flex;
@@ -700,24 +681,21 @@ flex-direction: column;
   .title-border-right:after {
     margin-left: 1rem;
   }
-  
+
   .text {
     margin: -33px 130px;
   }
-  
+
   .text2 {
     text-align: right;
     margin: 0 130px 0 0;
   }
-  
-  
-  
+
   .titlebar {
     color: white; /* 文字を白色に */
   }
-  
+
   .px {
     font-size: 20px;
   }
-  
-  }
+}
