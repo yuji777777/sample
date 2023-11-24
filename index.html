@@ -1,692 +1,188 @@
-@charset "UTF-8";
-
-/* パソコン */
-@media screen and (min-width: 1024px) {
-  /*ここにPC用のCSSを記述する*/
-html {
-  font-size: 100%;
-}
-
-body {
-  font-family: serif;
-}
-
-.gazo img {
-  width: 100%;
-}
-
-.wrapper {
-  text-align: center;
-  width: 100%;
-  max-width: 100%;
-  margin: 0 0;
-  padding: 0 0 0;
-}
-
-.circle {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: solid 2px white;
-  text-align: center;
-  line-height: 50px;
-  margin: 0 50px;
-}
-
-header .wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  margin-left: 150px;
-  margin-top: 35px;
-}
-
-.container2 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-   margin-left: 250px; 
-} 
-
-.container3 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-right: 1px;
-}
-
-.background-white {
-  text-align: center;
-  margin: 0 0;
-  width: 250px;
-  height: 50px;
-  background: white;
-}
-
-.background-white img {
-  width: 50px;
-  height: 50px;
-}
-
-
-.migi img {
-  margin: 0 100px 0 0;
-}
-
-.migi2 img {
-  margin: 0 100px 0 0;
-}
-
-.hidari img {
-  margin: 0 0 0 160px;
-}
-
-
-.text3 {
-  position: absolute;
-  color: #324e22;
-  font-weight: bold;
-  font-size: 20px;
-  margin: 0 0 0 120px;
-}
-
-.background-green {
-  margin: 0;
-  position: relative;
-  width: 100%;
-  background: #283222;
-  color: white;
-}
-
-.border {
-  font-size: 30px;
-  height: 60px;
-  width: 40px;
-  border-bottom: solid 3px #538338;
-}
-
-.border span {
-  font-size: 40px;
-}
-
-.example {
-  font-size: 30px;
-}
-.example2 {
-  line-height: 30px;
-}
-
-.example3 {
-  color: #dbad04;
-  font-size: 23px;
-}
-
-.example4 {
-  color: #dbad04;
-  font-size: 30px;
-}
-
-.example5 {
-  color: #fdfdfb;
-}
-
-.center {
-  text-align: center;
-}
-.center * {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.text4 {
-  margin: 0 -470px 0 0;
-}
-
-.text5
-{
-  color: #020202;
-  font-size: 19px;
-  font-weight: bold;
-
-
-}
-
-nav ul {
-  display: flex;
-  gap: 60px;
-}
-
-nav li a {
-  display: flex;
-  flex-direction: column;
-  font-size: 11px;
-  text-align: center;
-}
-
-nav li a i {
-  font-size: 20px;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  transition: opacity 0.5s;
-}
-
-section div id p {
-  color: #050505;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-a:hover {
-  opacity: 0.7;
-}
-
-/* main visual */
-.mv {
-  height: 300px;
-  object-fit: cover;
-}
-
-.btn {
-  padding: 10px 100px;
-  background: #324e22;
-  color: #fafafa;
-  border-radius: 25px;
-}
-.btn:active {
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  border-bottom: none;
-}
-
-.btn2 {
-  padding: 10px 50px;
-  background: #b28c04;
-  color: #fafafa;
-  border-radius: 25px;
-}
-.btn2:active {
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  border-bottom: none;
-}
-
-.btn3 {
-  padding: 10px 50px;
-  background: #324e22;
-  color: #fafafa;
-  border-radius: 25px;
-}
-.btn3:active {
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  border-bottom: none;
-}
-
-.cozyspace-img {
-  display: inline-block;
-  vertical-align: middle;
-} 
- 
-
-.cozyspace-message {
-  display: inline-block;
-  vertical-align: middle;
-} 
-
- IMG.displayed {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-section {
-  background: #282828;
-  color: white;
-  border-radius: 1em;
-  padding: 1em;
-  top: 100%;
-  left: 50%;
-  margin-right: 0;
-  transform: translate(0%, 0px);
-}
-
-.googlemap iframe {
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  height: 300px;
-  margin: 50px 0;
-  padding: 0 0 0 0;
-}
-
-footer {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 150px;
-  color: white;
-}
-
-/*——　文字の右にライン　——*/
-.title-border-right {
-  display: flex;
-  align-items: center;
-}
-.title-border-right:after {
-  border-top: 1px solid;
-  content: "";
-  flex-grow: 0.03;
-  color: #324e22;
-}
-.title-border-right:after {
-  margin-left: 1rem;
-}
-
-.text {
-  margin: -33px 130px;
-}
-
-.text2 {
-  text-align: right;
-  margin: 0 130px 0 0;
-}
-
-
-
-.titlebar {
-  color: white; /* 文字を白色に */
-}
-
-.px {
-  font-size: 20px;
-}
-
-}
-
-
-/* スマホ */
-@media screen and (max-width: 600px) {
-  /*ここにスマホ用のCSSを記述する*/
-  /* img { max-width: 100%; } */
-
-  
-  html {
-    font-size: 87.5%;
-  }
-  
-  
-
- main {
-    width: 100%;
-  }
-
-  
-  body {
-    font-family: serif;
-    width: 100%;
-  }
-  
-  .gazo img {
-    max-width: 100%;
-  }
-
-  .migi img {
-    width: 100%;
-    text-align: center;
-  }
-  
-  .migi2 img {
-    text-align: center;
-  }
-  
-  .hidari img {
-    text-align: center;
-  }
-  
-  header  {
-		width: 100%;
-	}
-  
-  
-  .wrapper {
-
-    text-align: center;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 0;
-    padding: 0 0 0;
-  }
-  
-   .menu {
-    position: absolute;
-    margin: 0px;
-    padding:  0px;             /* 余白指定 */
-    left:  350px;                /* 左からの位置指定 */
-    top: 0px;                  /* 上からの位置指定 */
-   }
-
-  .circle {
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    border: solid 2px white;
-    background: rgb(10, 10, 10);
-    text-align: center;
-    line-height: 25px;
-  }
-  
-  header .wrapper {
-    align-items: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  
-  .container {
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .container2 {
-    /* display: flex; */
-    justify-content: space-around;
-    align-items: center;
-    /* margin-left: 250px; */
-  }
-  
-  .container3 {
-    /* display: flex; */
-    justify-content: space-around;
-    align-items: center;
-
-    display: flex;
-flex-direction: column;
-    /* margin-right: 1px; */
-  }
-
-  .container3:nth-child(odd) {
-    flex-direction: column-reverse;
-    }
-  
-  .background-white {
-    text-align: center;
-
-    margin: 0 0;
-    width: 350px;
-    height: 25px;
-    background: white;
-  }
-
-  .background-white::before {
-    position: absolute;
-    top: -3px;
-    left: 55%;
-    transform: translateX(-50%);
-    color: #283222;
-    font-size: 20px;
-    text-transform: uppercase;
-    content: '茶の風味屋';
-    z-index: 1;
-}
-
-  .background-white img {
-    margin: 0 100px 0 0;
-    width: 25px;
-    height: 25px;
-  }
-  
-  .text3 {
-    /* position: absolute;
-    color: #324e22;
-    font-weight: bold;
-    font-size: 10px;
-    margin: 0 100px 50px 0;
-    display: block; */
-    display:none !important
-  }
-  
-  .background-green {
-    /* position: relative; */
-    width: 100%;
-    height: 1850px;
-    background: #283222;
-    color: white;
-      background-size: cover;
-
-  }
-  
-  .border {
-    font-size: 30px;
-    height: 60px;
-    width: 40px;
-    border-bottom: solid 3px #538338;
-  }
-  
-  .border span {
-    font-size: 40px;
-  }
-  
-  .example {
-    font-size: 30px;
-  }
-  .example2 {
-    line-height: 30px;
-  }
-  
-  .example3 {
-    color: #dbad04;
-    font-size: 23px;
-  }
-  
-  .example4 {
-    color: #dbad04;
-    font-size: 30px;
-  }
-  
-  .example5 {
-    color: #fdfdfb;
-  }
-  
-  .center {
-    text-align: center;
-  }
-  .center * {
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
-  .text4 {
-    margin: 0 0 0 0;
-    
-    font-feature-settings: "palt";
-    white-space: nowrap;
-  }
-  
-  .br::before {
-    text-align:left;
-
-    content: "\A";
-    white-space: pre;
-    
-}
-
-  .text5
-  {
-    color: #020202;
-    font-size: 19px;
-    font-weight: bold;
-  
-  
-  }
-  
-  nav ul {
-    display: flex;
-    gap: 30px;
-  }
-  
-  nav li a {
-    display: flex;
-    flex-direction: column;
-    font-size: 11px;
-    text-align: center;
-  }
-  
-  nav li a i {
-    font-size: 20px;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  a {
-    text-decoration: none;
-    color: white;
-    transition: opacity 0.5s;
-  }
-  
-  section div id p {
-    color: #050505;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  a:hover {
-    opacity: 0.7;
-  }
-  
-  /* main visual */
-  .mv {
-    height: 300px;
-    object-fit: cover;
-  }
-  
-  .btn {
-    padding: 10px 100px;
-    background: #324e22;
-    color: #fafafa;
-    border-radius: 25px;
-  }
-  .btn:active {
-    -webkit-transform: translateY(5px);
-    transform: translateY(5px);
-    border-bottom: none;
-  }
-  
-  .btn2 {
-    padding: 10px 50px;
-    background: #b28c04;
-    color: #fafafa;
-    border-radius: 25px;
-  }
-  .btn2:active {
-    -webkit-transform: translateY(5px);
-    transform: translateY(5px);
-    border-bottom: none;
-  }
-  
-  .btn3 {
-    padding: 10px 50px;
-    background: #324e22;
-    color: #fafafa;
-    border-radius: 25px;
-  }
-  .btn3:active {
-    -webkit-transform: translateY(5px);
-    transform: translateY(5px);
-    border-bottom: none;
-  }
-  
-  .cozyspace-img,
-  .cozyspace-message {
-    display: inline-block;
-    
-    
-  }
-
-  .cozyspace-img img {
-
-    align-items: center;
-
-  }
-  
-  /* IMG.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-   */
-  /* section {
-    background: #282828;
-    color: white;
-    border-radius: 1em;
-    padding: 1em;
-    top: 100%;
-    left: 50%;
-    margin-right: 0;
-    transform: translate(0%, 0px);
-  } */
-  
-  .googlemap iframe {
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    height: 300px;
-    margin: 50px 0;
-    padding: 0 0 0 0;
-  }
-  
-  footer {
-    font-family: Arial, Helvetica, sans-serif;
-    /* margin-left: 150px; */
-    color: white;
-  }
-  
-  /*——　文字の右にライン　——*/
-  .title-border-right {
-    display: flex;
-    align-items: center;
-  }
-  .title-border-right:after {
-    border-top: 1px solid;
-    content: "";
-    flex-grow: 0.03;
-    color: #324e22;
-  }
-  .title-border-right:after {
-    margin-left: 1rem;
-  }
-  
-  .text {
-    margin: -33px 130px;
-  }
-  
-  .text2 {
-    text-align: right;
-    margin: 0 130px 0 0;
-  }
-  
-  
-  
-  .titlebar {
-    color: white; /* 文字を白色に */
-  }
-  
-  .px {
-    font-size: 20px;
-  }
-  
-  }
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>課題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://yuji777777.github.io/sample/style.css">
+
+  </head>
+
+  <body style="background-color:#282828;">
+    <header>
+      <div class="wrapper">
+
+        <div class="background-white"><img src="img/aicon.png" alt="アイコン"></div>
+        <p class="text3">茶の風味屋</p>
+        <div class="text4">
+          <nav>
+            <ul>
+              <li>
+                <a href="#">
+                  TOP
+                </a>
+              </li>
+              <li>
+                <a href="#">
+
+                  抹茶について
+                </a>
+              </li>
+              <li>
+                <a href="#">
+
+                  こだわり</a>
+              </li>
+              <li>
+                <a href="#">
+
+                  お知らせ
+                </a>
+              </li>
+              <li>
+                <a href="#">
+
+                  お問い合わせ
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <p class="menu">
+          <a href="#">
+            <i class="circle bi bi-filter-left"></i>
+          </a>
+        </p>
+
+
+
+      </div>
+    </header>
+    <main>
+      <div class="gazo">
+        <img src="img/mv.png" alt="抹茶の魔法">
+      </div>
+
+      <div class="container">
+        <div class="cozyspace-message">
+          <p class="example"><span style="vertical-align:25%;" class="example4">当店について</span></p>
+          <div class="example5">
+            <p>当店は抹茶の魅力を最大限に活かすお店です。厳選された抹茶を使用し、</p>
+            <p>濃厚な味わいと複雑な風味を楽しむことができます。抹茶ラテ、抹茶和菓</p>
+            <p>子、抹茶アイスクリームなど、抹茶を幅広く楽しめるメニューを提供して</p>
+            <p>おり、抹茶好きなら絶対に満足できる場所です。おひとり様でも、友達との</p>
+            <p>リラックスタイムでも、ぜひお越しください。</p>
+          </div>
+          <br>
+          <button type="button" class="btn">当店について</button>
+        </div>
+        <div class="cozyspace-img">
+          <p class="migi">　<img src="img/1.png"></p>
+        </div>
+      </div>
+      <br><br>
+
+      <div class="background-green">
+        <div class="center">
+          <h3><span class="example3">わたしたちの抹茶について</span></h3>
+          <p>About Our Macha</p>
+        </div>
+        <br>
+        <div class="container2">
+          <div class="cozyspace-message">
+            <p class="border">POINT<span>01</span></p>
+            <br>
+            <id class="example2">
+              <p><span class="example3">濃厚な苦みと甘み</span></p>
+              <div class="text5">
+              <p>当店の抹茶は、</p>
+              <p>独特の濃厚な苦みと甘みを持つ緑茶で、</p>
+              <p>他の茶とは異なる風味を楽しむことができます。</p>
+              <p>この調和のとれた味わいは多くの人に魅力的です。</p>
+            </div>
+            </id>
+            <br>
+          </div>
+          <div class="cozyspace-img">
+            <p class="migi2">　<img src="img/3.png"></p>
+          </div>
+        </div>
+        <br>
+        <div class="container3">
+          <div class="cozyspace-img">
+            <p class="hidari">　<img src="img/2.png"></p>
+          </div>
+          <div class="cozyspace-message">
+            <p class="border">POINT<span>02</span></p>
+            <br>
+            <id class="example2">
+              <p><span class="example3">香りと風味の複雑さ</span></p>
+              <div class="text5">
+              <p>当店の抹茶は香りと風味の複雑さがあり、新鮮で草</p>
+              <p>のような香りから始まり、その後にナッツやウミユ</p>
+              <p>りのようなニュアンスが感じられます。その独特の</p>
+              <p>香りと風味は味覚と嗅覚を刺激します。</p>
+              </div>
+            </id>
+            <br>
+          </div>
+          <br>
+        </div>
+        <br>
+        <div class="container2">
+          <div class="cozyspace-message">
+            <p class="border">POINT<span>03</span></p>
+            <br>
+            <id class="example2">
+              <p><span class="example3">多用途性</span></p>
+              <div class="text5">
+
+              <p>当店の抹茶はおちゃだけではなく、</p>
+              <p>アイスクリーム、ラテ、スイーツ、料理など</p>
+              <p>幅広い料理や飲み物に利用され、</p>
+              <p>創造的な料理の要素として魅力的です。</p>
+              </div>
+            </id>
+            <br>
+          </div>
+          <div class="cozyspace-img" style="float:left;margin-right:225px">
+            　<img src="img/4.png">
+          </div>
+        </div>
+        <br>
+      </div>
+      <div class="googlemap iframe">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d975985.7817689975!2d138.60543922292274!3d36.533109342658506!3m2!1i1024!2i768!4f13.1!4m6!3e4!4m0!4m3!3m2!1d35.7077394!2d139.72173619999998!5e0!3m2!1sja!2sjp!4v1699170388871!5m2!1sja!2sjp"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+
+    </main>
+    <footer>
+      <ul class="sns">
+        <img src="img/footer.png" align="left">
+        <li>　　　〒000-000</li>
+        <li>　　　〇〇県〇〇市〇〇都〇〇〇〇00-00-0　　<button type="button" class="btn2">MAP</button>
+        </li>
+      </ul>
+      <br>
+      <div class="titlebar">
+        <p class="title-border-right">FOLLOW</p>
+        <div class="text">●●●　　
+          <button type="button" class="btn3">お問い合わせ</button>
+        </div>
+        <div class="text2">
+          <small>Copyright@Ooooooooooooooo</small>
+        </div>
+
+      </div>
+    </footer>
+
+  </body>
+
+</html>
