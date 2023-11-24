@@ -31,7 +31,10 @@ body {
   border: solid 2px white;
   text-align: center;
   line-height: 50px;
-  margin: 0 50px;
+  position:fixed;
+  top:0px;
+  right:0px;
+  /* margin: 0 50px; */
 }
 
 header .wrapper {
@@ -72,6 +75,8 @@ header .wrapper {
 }
 
 .background-white img {
+  margin: 0 100px 0 0;
+
   width: 50px;
   height: 50px;
 }
@@ -320,7 +325,7 @@ footer {
 /* スマホ */
 @media screen and (max-width: 600px) {
   /*ここにスマホ用のCSSを記述する*/
-  /* img { max-width: 100%; } */
+  img { max-width: 100%; }
 
   
   html {
@@ -340,12 +345,15 @@ footer {
   }
   
   .gazo img {
-    max-width: 100%;
+    width: 100%;
   }
 
   .migi img {
     width: 100%;
     text-align: center;
+    margin: 20px 0 0 0;
+
+
   }
   
   .migi2 img {
@@ -371,11 +379,15 @@ footer {
   }
   
    .menu {
-    position: absolute;
-    margin: 0px;
+    /* position: absolute; */
+    position:fixed;
+  right:0px;
+    /* margin: 0px; */
     padding:  0px;             /* 余白指定 */
-    left:  350px;                /* 左からの位置指定 */
+    /* left:  0px; */
+                    /* 左からの位置指定 */
     top: 0px;                  /* 上からの位置指定 */
+    
    }
 
   .circle {
@@ -425,7 +437,7 @@ flex-direction: column;
     text-align: center;
 
     margin: 0 0;
-    width: 350px;
+    width: 100%;
     height: 25px;
     background: white;
   }
@@ -610,12 +622,12 @@ flex-direction: column;
     border-bottom: none;
   }
   
-  .cozyspace-img,
+  /* .cozyspace-img,
   .cozyspace-message {
     display: inline-block;
     
     
-  }
+  } */
 
   .cozyspace-img img {
 
