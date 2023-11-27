@@ -283,6 +283,8 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 150px;
     color: white;
+    list-style: none;
+
   }
 
   /*——　文字の右にライン　——*/
@@ -301,17 +303,17 @@
   }
 
   .text {
-    margin: -45px 100px -45px 0;
+    margin: -30px 100px -45px 0;
   }
 
   .text6 {
-    margin: -20px 200px 0 0;
+    margin: -20px 0 0 0;
   }
   
 
   .text2 {
     text-align: right;
-    margin: 25px 130px 0 0;
+    margin: -20px 130px 0 0;
   }
 
   .titlebar {
@@ -658,6 +660,10 @@ height: 400px;
     
   } */
 
+  footer nav ul  {
+    display:block;
+  }
+
   .cozyspace-img img {
     align-items: center;
   }
@@ -694,6 +700,8 @@ height: 400px;
     color: white;
     text-align: center;
     width: 100%;
+    list-style: none;
+
     
   }
 
@@ -713,24 +721,27 @@ height: 400px;
   }
 
   .text {
-    margin: 0  0 0;
+    margin: -20 0 0 0;
   }
 
   .text6 {
-    margin: -20px 230px 0 0;
+    margin: -20px 0 0 -280px;
   }
 
   .text2 {
-    text-align: right;
-    margin: -60px 0 0 0;
+    text-align: center;
+    margin: 0 0 0 0;
     
   }
 
   .titlebar {
     color: white; /* 文字を白色に */
+    
   }
 
   .px {
     font-size: 20px;
   }
+
+  
 }
