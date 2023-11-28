@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* パソコン */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 600px) {
   /*ここにPC用のCSSを記述する*/
 
   * {
@@ -284,7 +284,6 @@
     margin-left: 150px;
     color: white;
     list-style: none;
-
   }
 
   /*——　文字の右にライン　——*/
@@ -309,7 +308,6 @@
   .text6 {
     margin: -20px 0 0 0;
   }
-  
 
   .text2 {
     text-align: right;
@@ -324,16 +322,19 @@
     font-size: 20px;
   }
 
-  .sma{
+  .sma {
     display: none;
+  }
 }
-}
+
+
+
+
 
 /* スマホ */
 @media screen and (max-width: 600px) {
   /*ここにスマホ用のCSSを記述する*/
 
- 
   * {
     margin: 0;
     padding: 0;
@@ -383,14 +384,13 @@
     width: 100%;
     padding: 10px;
     border: 2px solid #283222;
-
   }
 
   .hidari img {
     text-align: center;
     box-sizing: border-box;
     width: 400px;
-height: 400px;
+    height: 400px;
     padding: 10px;
     border: 2px solid #283222;
   }
@@ -441,7 +441,7 @@ height: 400px;
     box-sizing: border-box;
     width: 100%;
     padding: 10px;
-    border: 2px solid rgba(0,0,0,.2);
+    border: 2px solid rgba(0, 0, 0, 0.2);
   }
 
   .container2 {
@@ -512,7 +512,7 @@ height: 400px;
     box-sizing: border-box;
     width: 100%;
     padding: 10px;
-    border: 2px solid rgba(0,0,0,.2);
+    /* border: 2px solid rgba(0,0,0,.2); */
   }
 
   .border {
@@ -560,6 +560,10 @@ height: 400px;
 
     font-feature-settings: "palt";
     white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    
   }
 
   .br::before {
@@ -660,8 +664,8 @@ height: 400px;
     
   } */
 
-  footer nav ul  {
-    display:block;
+  footer nav ul {
+    display: block;
   }
 
   .cozyspace-img img {
@@ -701,8 +705,6 @@ height: 400px;
     text-align: center;
     width: 100%;
     list-style: none;
-
-    
   }
 
   /*——　文字の右にライン　——*/
@@ -731,17 +733,13 @@ height: 400px;
   .text2 {
     text-align: center;
     margin: 0 0 0 0;
-    
   }
 
   .titlebar {
     color: white; /* 文字を白色に */
-    
   }
 
   .px {
     font-size: 20px;
   }
-
-  
 }
