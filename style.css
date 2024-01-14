@@ -335,6 +335,23 @@
 @media screen and (max-width: 600px) {
   /*ここにスマホ用のCSSを記述する*/
 
+  /* .example6>div{
+    border: 1px solid #999;
+    background: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+} */
+@media(min-width:601px){
+    .sp{
+        display: none !important;
+    }
+}
+@media(max-width:600px){
+    .pc{
+        display: none !important;
+    }
+}
+
   * {
     margin: 0;
     padding: 0;
@@ -397,9 +414,12 @@
 
   header {
     width: 100%;
+   
+    
   }
 
   .wrapper {
+    
     text-align: center;
     width: 100%;
     max-width: 100%;
@@ -418,7 +438,7 @@
     top: 0px; /* 上からの位置指定 */
   }
 
-  .circle {
+  /* .circle {
     display: inline-block;
     width: 25px;
     height: 25px;
@@ -427,7 +447,7 @@
     background: rgb(10, 10, 10);
     text-align: center;
     line-height: 25px;
-  }
+  } */
 
   header .wrapper {
     align-items: center;
@@ -742,4 +762,94 @@
   .px {
     font-size: 20px;
   }
+
+  /* チェックボックスを非表示にする */
+.drawer_hidden {
+  display: none;
+}
+
+/* ハンバーガーアイコンの設置スペース */
+.drawer_open {
+  float: right;
+  display: flex;
+  height: 0px;
+  width: 30px;
+  margin: -12px 0 0 0;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+  z-index: 100;/* 重なり順を一番上にする */
+  cursor: pointer;
+}
+
+/* ハンバーガーメニューのアイコン */
+.drawer_open span,
+.drawer_open span:before,
+.drawer_open span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  background: #333;
+  transition: 0.5s;
+  position: absolute;
+}
+
+
+/* 三本線の一番上の棒の位置調整 */
+.drawer_open span:before {
+  bottom: 8px;
+}
+
+/* 三本線の一番下の棒の位置調整 */
+.drawer_open span:after {
+  top: 8px;
+}
+
+/* アイコンがクリックされたら真ん中の線を透明にする */
+#drawer_input:checked ~ .drawer_open span {
+  background: rgba(255, 255, 255, 0);
+}
+
+/* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+#drawer_input:checked ~ .drawer_open span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+#drawer_input:checked ~ .drawer_open span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+  
+/* メニューのデザイン*/
+.nav_content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  bottom: 100%;
+  left: 0%; /* メニューを画面の外に飛ばす */
+  z-index: 99;
+  background: rgb(110, 110, 110);
+  transition: .5s;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* メニュー黒ポチを消す */
+.nav_list {
+  list-style: none;
+}
+
+.nav_item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* アイコンがクリックされたらメニューを表示 */
+#drawer_input:checked ~ .nav_content {
+  bottom: 0;/* メニューを画面に入れる */
+  
+}
 }
