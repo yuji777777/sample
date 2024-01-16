@@ -813,6 +813,8 @@
   /* position: relative; */
   z-index: 100;/* 重なり順を一番上にする */
   cursor: pointer;
+  transform: translate(-500px, 0);
+
 }
 
 /* ハンバーガーメニューのアイコン */
