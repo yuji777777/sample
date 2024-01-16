@@ -803,8 +803,7 @@
 
 /* ハンバーガーアイコンの設置スペース */
 .drawer_open {
-  float: right;
-  display: flex;
+    display: flex;
   height: 0px;
   width: 30px;
   margin: -12px 0 0 0;
@@ -813,7 +812,6 @@
   /* position: relative; */
   z-index: 100;/* 重なり順を一番上にする */
   cursor: pointer;
-  transform: translate(-500px, 0);
 
 }
 
